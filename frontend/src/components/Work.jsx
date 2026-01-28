@@ -12,7 +12,7 @@ const Work = () => {
             image: project1,
             tags: ["React", "Express", "MongoDB", "Python"],
             liveLink: "#",
-            githubLink: "#",
+            githubLink: "https://github.com/ganeshxchoudhary",
             color: "from-orange-500 to-orange-600"
         },
         {
@@ -22,7 +22,7 @@ const Work = () => {
             image: project1, // Reusing for demo
             tags: ["Vite", "Tailwind CSS", "Framer Motion"],
             liveLink: "#",
-            githubLink: "#",
+            githubLink: "https://github.com/ganeshxchoudhary",
             color: "from-blue-500 to-indigo-600"
         },
         {
@@ -32,7 +32,7 @@ const Work = () => {
             image: project1, // Reusing for demo
             tags: ["Next.js", "Redux", "Node.js"],
             liveLink: "#",
-            githubLink: "#",
+            githubLink: "https://github.com/ganeshxchoudhary",
             color: "from-purple-500 to-indigo-500"
         }
     ];
@@ -107,6 +107,8 @@ const Work = () => {
                                     </a>
                                     <a
                                         href={project.githubLink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         className="flex items-center gap-1 text-slate-400 font-bold text-[10px] uppercase tracking-widest hover:text-slate-900 transition-colors"
                                     >
                                         <Github size={14} /> Code

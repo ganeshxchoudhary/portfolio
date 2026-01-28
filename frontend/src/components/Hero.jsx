@@ -154,6 +154,8 @@ const Hero = () => {
                                     <motion.a
                                         key={idx}
                                         href={social.href}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         whileHover={{ y: -5, color: "#f97316" }}
                                         className="text-slate-400 p-4 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all"
                                         aria-label={social.label}

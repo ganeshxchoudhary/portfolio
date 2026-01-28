@@ -68,8 +68,8 @@ const Navbar = ({ activeSection, setActiveSection }) => {
                             <div className="h-6 w-px bg-gray-200 mx-4" />
 
                             <div className="flex items-center space-x-4 ml-4">
-                                <a href="#" className="text-slate-400 hover:text-primary transition-colors" aria-label="GitHub Profile"><Github size={18} /></a>
-                                <a href="https://www.linkedin.com/in/ganesh-choudhary-028457381" className="text-slate-400 hover:text-primary transition-colors" aria-label="LinkedIn Profile"><Linkedin size={18} /></a>
+                                <a href="https://github.com/ganeshxchoudhary" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-primary transition-colors" aria-label="GitHub Profile"><Github size={18} /></a>
+                                <a href="https://www.linkedin.com/in/ganesh-choudhary-028457381" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-primary transition-colors" aria-label="LinkedIn Profile"><Linkedin size={18} /></a>
                             </div>
                         </div>
 

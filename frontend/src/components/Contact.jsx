@@ -94,8 +94,8 @@ const Contact = () => {
                         <div className="pt-6 space-y-4">
                             <p className="text-xs font-black text-slate-400 uppercase tracking-widest">Connect with me</p>
                             <div className="flex gap-4">
-                                <a href="#" className="p-4 bg-slate-900 text-white rounded-2xl hover:bg-primary transition-colors duration-500"><Github size={20} /></a>
-                                <a href="https://www.linkedin.com/in/ganesh-choudhary-028457381" className="p-4 bg-slate-900 text-white rounded-2xl hover:bg-primary transition-colors duration-500"><Linkedin size={20} /></a>
+                                <a href="https://github.com/ganeshxchoudhary" target="_blank" rel="noopener noreferrer" className="p-4 bg-slate-900 text-white rounded-2xl hover:bg-primary transition-colors duration-500" aria-label="GitHub Profile"><Github size={20} /></a>
+                                <a href="https://www.linkedin.com/in/ganesh-choudhary-028457381" target="_blank" rel="noopener noreferrer" className="p-4 bg-slate-900 text-white rounded-2xl hover:bg-primary transition-colors duration-500" aria-label="LinkedIn Profile"><Linkedin size={20} /></a>
                             </div>
                         </div>
                     </motion.div>
