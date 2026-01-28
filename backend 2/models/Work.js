@@ -1,0 +1,1 @@
+const mongoose = require('mongoose'); const workSchema = new mongoose.Schema({ title: String, description: String, image: String, link: String, tags: [String] }); module.exports = mongoose.model('Work', workSchema);

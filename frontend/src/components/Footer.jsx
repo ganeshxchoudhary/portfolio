@@ -1,0 +1,1 @@
+import React from 'react'; const Footer = () => <footer className='py-10 border-t'><div className='container mx-auto px-4 text-center text-gray-400 font-medium'>&copy; 2026 Ganesh Choudhary. All rights reserved.</div></footer>; export default Footer;
